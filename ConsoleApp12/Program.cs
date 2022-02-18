@@ -7,8 +7,15 @@ namespace ConsoleApp12
         static void Main(string[] args)
         {
             Console.WriteLine("Hello World!");
-
+            for (int i = 0; i < 80; i++)
+            {
+                Console.Write("*");
+            }
             Console.WriteLine( "Welcome all");
+            for (int i = 0; i < 80; i++)
+            {
+                Console.Write("*");
+            }
         }
     }
 }
